@@ -66,13 +66,13 @@ echo $i"["$me"2"$i"]"$bi"🔀🔀|DarkFB Peremuim"$me"                [A]"
 sleep 0.2
 echo $i"["$me"3"$i"]"$bi"🔀🔀|REPORT FB"$me"	        	    [E]"
 sleep 0.3
-echo $i"["$me"4"$i"]"$bi"🔀🔀|BRUTE FORCE TAGET"$me"			  [S]"
+echo $i"["$me"4"$i"]"$bi"🔀🔀|BRUTE FORCE TAGET"$me"		    [S]"
 sleep 0.4
-echo $i"["$me"5"$i"]"$bi"🔀🔀|BRUTE FORCE FB CRACKER"$me"		  [T]"
+echo $i"["$me"5"$i"]"$bi"🔀🔀|BRUTE FORCE FB CRACKER"$me"	    [T]"
 sleep 0.1
-echo $i"["$me"6"$i"]"$bi"🔀🔀|MBF"$me"					  [R]"
+echo $i"["$me"6"$i"]"$bi"🔀🔀|MBF"$me"			  [R]"
 sleep 0.1
-echo $i"["$me"7"$i"]"$bi"🔀🔀|CLONING YAHOO"$me"			  [O]"
+echo $i"["$me"7"$i"]"$bi"🔀🔀|CLONING YAHOO"$me"			    [O]"
 sleep 0.1
 echo $i"["$me"8"$i"]"$bi"🔀🔀|OSIF"$me"				  [T]"
 sleep 0.1
@@ -99,9 +99,9 @@ if [ $pil = 2 ]
 then
 clear
 sleep 1
-git clone https://github.com/MaestroTool/DarkFBP.git
-cd DarkFBP $y
-python2 BGSD.py $y
+git clone https://github.com/MaestroTool/DarkFBPremium
+cd DarkFBPremium $y
+python2 DarkFBP.pyc $y
 fi
 	     
 if [ $pil = 3 ]
