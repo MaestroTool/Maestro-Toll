@@ -52,7 +52,7 @@ echo $ku"["$me"⚠️"$ku"]"$i"▪️▪️▪️▪️▪️▪️▪️▪️�
 echo $bi"["$me"+"$bi"]"$pu" 🔱Pencipta :"$me"  MAESTRO"
 echo $bi"["$me"+"$bi"]"$pu" 🔱Facebook :"$me"  www.facebook.com/maestro10001"
 echo $bi"["$me"+"$bi"]"$pu" 🔱Type     :"$me"  Tool Installer"
-echo $bi"["$me"+"$bi"]"$pu" 🔱Version  :"$me"  v1.0"
+echo $bi"["$me"+"$bi"]"$pu" 🔱Version  :"$me"  v2.0"
 echo $ku"["$me"⚠️"$ku"]"$i"▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️▪️"$ku"["$me"⚠️"$ku"]"
 sleep 2
 			             
@@ -80,6 +80,7 @@ echo $i"["$me"9"$i"]"$bi"🔀🔀|PROFILEGUARD FB"$me"		  [O]"
 sleep 0.1
 echo $i"["$me"10"$i"]"$bi"🔀 |BOT REACTION FACEBOOK"$me"	  [L]"
 sleep 0.1
+echo $i"["$me"99"$i"]"$bi"🔀 |TermuxJomb"$me"(Khusus Jomblo)"$me"	  [L]"
 echo $i"["$me"00"$i"]"$pu" EXIT"
 echo "⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩"
 sleep 0.1
@@ -179,6 +180,16 @@ git clone https://github.com/CiKu370/OSIF.git
 cd OSIF $y
 pip2 install -r requirements.txt $y
 python2 osif.py $y
+fi
+
+if [ $pil = 99 ]
+then
+clear
+sleep 1
+git clone https://github.com/MaestroTool/TermuxJomb
+cd TermuxJomb $y
+pkg install figlet -f $y
+sh Jomblo.sh $y
 fi
 
 if [ $pil = 00 ]
